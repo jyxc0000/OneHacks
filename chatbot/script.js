@@ -2,7 +2,7 @@ const form = document.getElementById('chat-form');
 const mytextInput = document.getElementById('mytext');
 const responseTextarea = document.getElementById('response');
 
-const API_KEY = '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';
+const API_KEY = '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';
 
 form.addEventListener('submit', async (e) => {
     e.preventDefault();

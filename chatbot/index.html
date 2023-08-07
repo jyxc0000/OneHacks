@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+    body {
+        font-size: 30px;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-image: url('bg.jpg');
+        color:yellow; /* Change text color to white */
+    }
+    textarea { font-size: 30px; }
+    input { font-size: 30px; }
+    button{
+        font-size: 30px;
+    }
+</style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatroom</title>
+</head>
+<body>
+    <br>
+    </br>
+    <div>
+        <div>
+            <center>
+                <textarea id="response" rows="16" cols="50" style="width: 80%;" readonly></textarea>
+            </center>
+            
+        </div>
+        <h1> <center> Talk with ChatGPT API! </center> </h1>
+        <center>
+        <form id="chat-form">
+            <label for="mytext">Enter your message:</label>
+            <input type="text" id="mytext" style="width: 80%;" required>
+            <button type="submit">Enter</button>
+        </form>
+        </center>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
